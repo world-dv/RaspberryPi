@@ -58,7 +58,7 @@ void connectSQL(int busNumber, int busStop) {
 
 	while(1) {
 		mysql_init(&conn);
-		connection = mysql_real_connection(&conn, DB_HOST, DB_USER, DB_PASS, DB_NAME, PORT, (char*)NULL, 0);
+		connection = mysql_real_connect(&conn, DB_HOST, DB_USER, DB_PASS, DB_NAME, PORT, (char*)NULL, 0);
 		if(connection == NULL) {
 			fprintf(stderr, "SQL Connection error\n");
 			return 1;
