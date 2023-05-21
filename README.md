@@ -13,9 +13,9 @@
 -> 컴파일 후 실행 파일이 생성됨
 
 3-1) 컴파일 옵션
-(1) mysql : -I/usr/include/mysql -L/usr/lib -Imysqlclient
-(2) wiringPi : -lwriringPi -lwiringPiDev
-(3) 스레드 : -lpthread
+- mysql : -I/usr/include/mysql -L/usr/lib -Imysqlclient
+- wiringPi : -lwriringPi -lwiringPiDev
+- 스레드 : -lpthread
 
 4) 파일 실행 : ./"실행 파일명"
 
