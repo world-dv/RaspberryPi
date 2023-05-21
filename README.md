@@ -12,9 +12,9 @@
 - 파일 저장 : cltrl+s 후 cltrl+x 또는 cltrl+x 후 y + Enter
 
 3) C 파일 컴파일 -> gcc 이용
-- gcc install : sudo apt-get install gcc
-- gcc compile : gcc -o "실행 파일 명" "파일".c 
--> 컴파일 후 실행 파일이 생성됨
+  - gcc install : sudo apt-get install gcc
+  - gcc compile : gcc -o "실행 파일 명" "파일".c 
+    - 컴파일 후 실행 파일이 생성됨
 
 3-1) 컴파일 옵션
 - mysql : -I/usr/include/mysql -L/usr/lib -Imysqlclient
@@ -55,42 +55,29 @@
 
 |*라즈베리파이*|*LED*|
 
-
 |:---:||:---:|
-
 
 |29번(GPIO5)|1|
 
-
 |31번(GPIO6)|2|
-
 
 |33번(GPIO13)|3|
 
-
 |35번(GPIO19)|4|
-
 
 |37번(GPIO25)|5|
 
-
 |23번(GPIO11)|6|
-
 
 |32번(GPIO12)|7|
 
-
 |25번(GPIO16)|8|
-
 
 |38번(GPIO20)|9|
 
-
 |40번(GPIO21)|10|
 
-
 |26번(GPIO7)|11|
-
 
 |24번(GPIO8)|12|
 
@@ -100,7 +87,7 @@
 - 정류장 하차 1분 전일 경우, LED 1분간 깜빡임
 
 
-**
+***
 
 
 **2. LCD**
@@ -116,30 +103,21 @@
 
 |*라즈베리파이*|*LCD*|
 
-
 |:---:||:---:|
-
 
 |6번(GND)|ground|
 
-
 |2번(+5V)|5V|
-
 
 |26번(GPIO7)|4번(RS)|
 
-
 |24번(GPIO8)|6번(E)|
-
 
 |11번(GPIO17)|11번(D4)|
 
-
 |12번(GPIO18)|12번(D5)|
 
-
 |13번(GPIO27)|13번(D6)|
-
 
 |15번(GPIO22)|14번(D7)|
 
