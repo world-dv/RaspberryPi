@@ -16,8 +16,8 @@
 #define DB_HOST 
 #define DB_NAME 
 #define DB_PASS 
-#define DB_USER "bus"
-#define PORT 3306
+#define DB_USER 
+#define PORT 
 
 void dayTime(int lcd);
 void reserved(int lcd);
